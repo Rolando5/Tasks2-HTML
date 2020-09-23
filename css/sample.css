@@ -1,0 +1,49 @@
+html {font-size: 62.5%; position: relative; min-height: 100%;}
+
+body {height: 100%; text-align: center; margin-top: -10px;}
+
+.main-header {
+  top: 0;
+  padding-top: 10%;
+  width: 100%;
+  text-align: center;
+  background-size: cover;
+  background-image: url("../image-master/header.jpg");
+  background-attachment: fixed; background-attachment: auto;}
+
+.header {height: 50px; background-color: black;}
+
+.header ul {width: auto;}
+
+.header ul a {width: 110px; float: left; margin: 2; font-size:1.5rem;
+              text-decoration: none; color: #fff; padding-top: 10px;}
+
+.header li {width: 120px; float: left; margin: 0;}
+
+ header ul li.right {float: right;}
+
+ header ul li.left {float: left;}
+
+.main-header img {padding-bottom: 100px; width: 300px;}
+
+.about {height: 220px; width: 100%;}
+.about p {test-decoration: none; font-size: 1.5rem; padding-bottom: 20px;}
+.about h1 {font-weight: bolder; padding-top: 20px}
+
+.function {height: 350px; background-color: #D6DBDF;
+           padding-top: 20px; width: 100%;}
+
+.function h1 {padding: 20px; font-size: 2; font-weight: bolder;}
+
+.function-images {width: 80%; height: 20px; margin: 20px; float: left;}
+
+.function-image {width: 20%; float: right; margin: 0px;}
+
+.footer {width: 100%;
+  height: 80px;
+  position: relative;
+  bottom: 10px;
+  background-color: #1B2631;
+  display: table;}
+
+.footer p {font-size: 1rem; color: #fff; float: center; padding-top: 10px;}
